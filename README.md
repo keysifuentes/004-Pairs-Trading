@@ -9,6 +9,7 @@ Students will develop a statistical arbitrage strategy using pairs trading. The 
  
 
 #Objectives
+
 Systematically identify cointegrated pairs using statistical tests
 Understand and implement Kalman filters as sequential decision processes for both hedge ratios and trading signals
 Develop market-neutral trading strategies with dynamic hedging and VECM from Johansen's test
