@@ -18,13 +18,13 @@ Create clean and documented code
  
 
 Key Concepts
+
 Cointegration: Long-run equilibrium relationship between two time series
 Mean Reversion: Exploitation of temporary deviations from equilibrium
 Dynamic Hedging: Adjusting hedge ratios over time using Kalman filters
 VECM: Create dynamic error correction models, stabilized using another Kalman filter
 Sequential Decision Process: Real-time state estimation and optimal decision-making
 Market-Neutral Strategy: Zero systematic market exposure
----
 
 ##  Requisitos Técnicos
 
