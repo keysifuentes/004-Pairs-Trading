@@ -8,7 +8,7 @@ Students will develop a statistical arbitrage strategy using pairs trading. The 
 
  
 
-#Objectives
+Objectives
 
 Systematically identify cointegrated pairs using statistical tests
 Understand and implement Kalman filters as sequential decision processes for both hedge ratios and trading signals
@@ -17,7 +17,7 @@ Analyze strategy performance with realistic transaction costs and borrowing fees
 Create clean and documented code
  
 
-#Key Concepts
+Key Concepts
 Cointegration: Long-run equilibrium relationship between two time series
 Mean Reversion: Exploitation of temporary deviations from equilibrium
 Dynamic Hedging: Adjusting hedge ratios over time using Kalman filters
