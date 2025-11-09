@@ -1,22 +1,28 @@
 # Pairs Trading with Cointegration & Kalman Filters
 
-##  Descripción General
-Este proyecto desarrolla una estrategia de **arbitraje estadístico (Pairs Trading)** aplicando:
-- **Cointegración** para detectar relaciones de equilibrio entre activos.
-- **Kalman Filters** para ajustar dinámicamente los **hedge ratios** y generar señales.
-- **VECM (Vector Error Correction Model)** para modelar el proceso de corrección del spread.
 
-Todo el sistema sigue el marco de **Powell’s Sequential Decision Analysis (SDA)**:
-> predict → observe → update → decide → act → learn
+ 
 
----
+Project Overview
+Students will develop a statistical arbitrage strategy using pairs trading. The strategy identifies cointegrated asset pairs, estimates dynamic hedge ratios using Kalman filters, and generates trading signals based on mean reversion opportunities from using Johansen's Cointegration Test and VECM. The Kalman filter is formulated as a sequential decision process following Powell's Sequential Decision Analysis framework.
 
-## Objetivos
-1. Identificar pares cointegrados mediante Engle–Granger y Johansen.
-2. Implementar dos Kalman Filters (para hedge ratio y para señales).
-3. Desarrollar una estrategia *market-neutral* con cobertura dinámica.
-4. Evaluar resultados con costos realistas y análisis de desempeño.
+ 
 
+#Objectives
+Systematically identify cointegrated pairs using statistical tests
+Understand and implement Kalman filters as sequential decision processes for both hedge ratios and trading signals
+Develop market-neutral trading strategies with dynamic hedging and VECM from Johansen's test
+Analyze strategy performance with realistic transaction costs and borrowing fees
+Create clean and documented code
+ 
+
+#Key Concepts
+Cointegration: Long-run equilibrium relationship between two time series
+Mean Reversion: Exploitation of temporary deviations from equilibrium
+Dynamic Hedging: Adjusting hedge ratios over time using Kalman filters
+VECM: Create dynamic error correction models, stabilized using another Kalman filter
+Sequential Decision Process: Real-time state estimation and optimal decision-making
+Market-Neutral Strategy: Zero systematic market exposure
 ---
 
 ##  Requisitos Técnicos
